@@ -5,7 +5,7 @@ class Cat extends Animal{
         super(name, color, age);
     }
     @Override
-    String voice() {
+    public String voice() {
         return "мяяяяу";
     }
 }

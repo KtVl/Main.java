@@ -6,7 +6,7 @@ class Dog extends Animal{
         super(name, color, age);
     }
     @Override
-    String voice() {
+    public String voice() {
         return "гав-гав";
     }
 }

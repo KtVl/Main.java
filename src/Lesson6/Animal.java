@@ -1,7 +1,6 @@
 package Lesson6;
 
-abstract class Animal {
-    public String voice;
+abstract class Animal implements IAnimal{
     protected String name;
     protected String color;
     protected int age;
@@ -13,9 +12,6 @@ abstract class Animal {
         this.color = color;
         this.age = age;
     }
-
-
-    abstract String voice();
 
     // переопределение метода
     @Override
