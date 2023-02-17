@@ -1,6 +1,6 @@
 package Lesson6;
 
-public class Animal {
+abstract class Animal {
     public String voice;
     protected String name;
     protected String color;
@@ -15,9 +15,7 @@ public class Animal {
     }
 
 
-    String voice() {
-        return "unknown";
-    }
+    abstract String voice();
 
     // переопределение метода
     @Override
