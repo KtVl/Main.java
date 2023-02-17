@@ -3,7 +3,7 @@ package lesson3;
 import org.w3c.dom.ls.LSOutput;
 
 import java.util.Arrays;
-public class homework3 {
+public class Homework3 {
     public static void main(String[] args) {
 //        swap0By1();
 //        fillArray();

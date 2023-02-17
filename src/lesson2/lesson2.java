@@ -1,5 +1,5 @@
 package lesson2;
-//public class lesson2 {
+//public class Lesson2 {
 //    public static void main(String[] args) {
 //        checkSumSign(5, 10);
 //        checkSumSign(-2, -10);
@@ -12,7 +12,7 @@ package lesson2;
 //}
 // методы с параметрами.
 
-public class lesson2 {
+public class Lesson2 {
     public static void main(String[] args) {
         boolean result = checkSumSign(5, 10);
         System.out.println(result? "Сумма положительная" : "Сумма отрицательная");

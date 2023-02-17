@@ -3,10 +3,10 @@ public class HomeWork2 {
     public static void main(String[] args) {
 //        boolean result = checkSumSign(5, 10);
 //        System.out.println(result);
-//        checkNum(0);
+        checkNum(0);
 //        boolean result = CompareSigns(4);
 //        System.out.println(result);
-        PrintLine("hello", 8);
+//        PrintLine("hello", 8);
 
     }
 // Написать метод, принимающий на вход два целых числа и проверяющий,
