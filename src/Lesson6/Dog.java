@@ -9,4 +9,14 @@ class Dog extends Animal{
     public String voice() {
         return "гав-гав";
     }
+
+    @Override
+    public String run() {
+        return "Собака может пробежать 500м";
+    }
+
+    @Override
+    public String swim() {
+        return "Собака может проплыть 10м";
+    }
 }

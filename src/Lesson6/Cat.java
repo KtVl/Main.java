@@ -8,5 +8,15 @@ class Cat extends Animal{
     public String voice() {
         return "мяяяяу";
     }
+
+    @Override
+    public String run() {
+        return "Кот может пробежать 200м";
+    }
+
+    @Override
+    public String swim() {
+        return "Кот не умеет плавать";
+    }
 }
 

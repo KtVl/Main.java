@@ -1,5 +1,7 @@
 package Lesson6;
 
 public interface IAnimal {
-    public String voice();
+    String voice();
+    String run();
+    String swim();
 }

@@ -9,6 +9,8 @@ public class Lesson6 {
         for (IAnimal animal : animals) {
             System.out.println(animal);
             System.out.println(animal.voice()); // через один и тот же интерфейс доступ к разным реализациям
+            System.out.println(animal.run());
+            System.out.println(animal.swim());
         }
     }
 }
