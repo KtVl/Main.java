@@ -1,4 +1,4 @@
-package Lesson6;
+package lesson6;
 
 abstract class Animal implements IAnimal{
     protected String name;

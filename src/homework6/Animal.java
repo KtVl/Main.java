@@ -1,4 +1,4 @@
-package Homework6;
+package homework6;
 
 
 abstract class Animal implements InterfaceAnimal {

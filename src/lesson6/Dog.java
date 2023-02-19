@@ -1,4 +1,4 @@
-package Lesson6;
+package lesson6;
 
 class Dog extends Animal{
     Dog (String name, String color, int age) {

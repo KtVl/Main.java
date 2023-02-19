@@ -1,4 +1,4 @@
-package Homework6;
+package homework6;
 
 public interface InterfaceAnimal {
     String run (int Distance);

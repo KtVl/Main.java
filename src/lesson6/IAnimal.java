@@ -1,4 +1,4 @@
-package Lesson6;
+package lesson6;
 
 public interface IAnimal {
     String voice();
