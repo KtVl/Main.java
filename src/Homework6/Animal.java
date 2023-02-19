@@ -22,7 +22,7 @@ abstract class Animal implements InterfaceAnimal {
     @Override
     public String run(int distance){
         if(distance > runLimit){
-            return className + " не может пробежать  " + distance + "метров.";
+            return className + " не может пробежать  " + distance + " метров.";
         } else {
             return className + " пробежал " + distance + ".";
         }
@@ -32,7 +32,7 @@ abstract class Animal implements InterfaceAnimal {
         if(distance > swimLimit){
             return className + " не может проплыть " + distance + " метров.";
         } else {
-            return className + " пробежал " + distance + ".";
+            return className + " проплыл " + distance + ".";
         }
     }
     @Override

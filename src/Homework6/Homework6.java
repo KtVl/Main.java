@@ -11,7 +11,7 @@ package Homework6;
 public class Homework6 {
     public static void main(String[] args) {
         InterfaceAnimal[] animals = {
-                new Cats(200, 0),
+                new Cats(200),
                 new Cerber(500, 10)
         };
         for (InterfaceAnimal animal : animals) {
