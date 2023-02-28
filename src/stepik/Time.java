@@ -2,7 +2,7 @@ package stepik;
 
 import java.util.Scanner;
 
-public class test {
+public class Time {
     public static void main(String[] args) {
         // Напишите программу, которая получает на вход с клавиатуры целое число.
         // Это число представляет собой текущее суточное время как количество
