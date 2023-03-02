@@ -1,4 +1,4 @@
-package stepik;
+package tasks;
 
 import java.util.Scanner;
 
